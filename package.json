@@ -1,12 +1,25 @@
 {
-  "name": "dracula-gray",
+  "name": "theme-dracula-grey",
+  "version": "0.0.1",
   "displayName": "Dracula Grey",
   "description": "Dracula Grey Theme",
-  "version": "0.0.1",
-  "license": "MIT",
   "publisher": "npv2k1",
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package -o ./bin/dracula-grey.vsix"
+  },
+  "maintainers": [
+    "Nguyen Pham <npv2k1@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npv2k1/dracula-gray.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npv2k1/dracula-gray/issues"
+  },
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
@@ -18,13 +31,20 @@
     "color-theme"
   ],
   "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#3c4557",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Dracula Grey",
         "uiTheme": "vs-dark",
-        "path": "./themes/dracula-grey.json"
+        "path": "./theme/dracula-grey.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^2.7.0"
   }
 }
