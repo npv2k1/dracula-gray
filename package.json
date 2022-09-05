@@ -1,0 +1,30 @@
+{
+  "name": "dracula-gray",
+  "displayName": "Dracula Grey",
+  "description": "Dracula Grey Theme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "npv2k1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dracula",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Grey",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-grey.json"
+      }
+    ]
+  }
+}
