@@ -6,7 +6,7 @@
   "publisher": "npv2k1",
   "license": "MIT",
   "scripts": {
-    "package": "vsce package -o ./bin/dracula-grey.vsix"
+    "package": "vsce package"
   },
   "maintainers": [
     "Nguyen Pham <npv2k1@gmail.com>"
@@ -40,7 +40,7 @@
       {
         "label": "Dracula Grey",
         "uiTheme": "vs-dark",
-        "path": "./theme/dracula-grey.json"
+        "path": "./themes/dracula-grey.json"
       }
     ]
   },
