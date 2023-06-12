@@ -6,7 +6,8 @@
   "publisher": "npv2k1",
   "license": "MIT",
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package -o ./bin/dracula-gray.vsix",
+    "vsce-publish": "vsce publish"
   },
   "maintainers": [
     "Nguyen Pham <npv2k1@gmail.com>"
