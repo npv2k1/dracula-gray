@@ -1,8 +1,8 @@
 {
-  "name": "theme-dracula-grey",
+  "name": "theme-dracula-gray",
   "version": "0.0.1",
-  "displayName": "Dracula Grey",
-  "description": "Dracula Grey Theme",
+  "displayName": "Dracula Gray",
+  "description": "Dracula Gray Theme",
   "publisher": "npv2k1",
   "license": "MIT",
   "scripts": {
@@ -38,9 +38,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dracula Grey",
+        "label": "Dracula Gray",
         "uiTheme": "vs-dark",
-        "path": "./themes/dracula-grey.json"
+        "path": "./themes/dracula-gray.json"
       }
     ]
   },
