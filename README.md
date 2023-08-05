@@ -15,10 +15,8 @@ Or install through the Marketplace.
 ## Usage
 `settings.json`
 ```json
-{
-  ...
+{  
   "workbench.colorTheme": "Dracula Gray"
-  ...
 }
 ```
 
@@ -32,13 +30,11 @@ Or install through the Marketplace.
 You can customize this theme further by modifying your VS Code user settings.json file. For example:
 
 ```json
-...
 "workbench.colorCustomizations": {
   "activityBar.background": "#1E1E2E",
   "editorIndentGuide.background": "#3E3E5E",
   "sideBar.background": "#161629" 
 }
-...
 ```
 See the VS Code documentation for more details.
 
