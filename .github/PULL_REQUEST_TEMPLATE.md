@@ -19,7 +19,7 @@
 
 <!-- Mark with an `x` all the checkboxes that apply (like `[x]`) --> 
 
-- [ ] I have read the [CONTRIBUTING](./CONTRIBUTING.md) doc
+- [ ] I have read the [CONTRIBUTING](../CONTRIBUTING.md) doc
 - [ ] I have added necessary documentation (if appropriate)
 - [ ] Unit tests coverage for changes (if appropriate)
 - [ ] All tests pass locally
