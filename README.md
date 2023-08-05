@@ -10,6 +10,7 @@
 3. Search for "Dracula Gray"
 4. Click Install
 5. Click Reload to activate the theme
+
 Or install through the Marketplace.
 
 ## Usage
